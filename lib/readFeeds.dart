@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:home_feed/constant.dart';
 import 'package:home_feed/news.dart';
-import 'package:home_feed/bottomNav.dart';
+
 class ReadFeeds extends StatelessWidget {
   final News news;
   ReadFeeds({this.news});
@@ -14,7 +14,6 @@ class ReadFeeds extends StatelessWidget {
       //   backgroundColor: appBackbround,
       // ),
       body: Center(
-
         child: Container(
           width: 450,
           height: 600,
@@ -22,12 +21,10 @@ class ReadFeeds extends StatelessWidget {
 
           decoration: BoxDecoration(
               color: newsBackground,
-
               borderRadius: BorderRadius.circular(35.0),
               border: Border.all(color: blk, width: 1.0)),
           //padding: EdgeInsets.symmetric(horizontal: 18.0),
           child: ListView(
-
             children: [
               SizedBox(height: 12.0),
               Text(news.title, style: titleCard.copyWith(fontSize: 28.0)),
@@ -79,7 +76,6 @@ class ReadFeeds extends StatelessWidget {
                       horizontal: 12.0,
                       vertical: 15.0,
                     ),
-
                   ),
                   Spacer(),
                   Status(
@@ -95,8 +91,6 @@ class ReadFeeds extends StatelessWidget {
               ),
               SizedBox(height: 12.0),
               //BottomNav(),
-
-
             ],
           ),
         ),

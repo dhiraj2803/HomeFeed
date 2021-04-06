@@ -9,18 +9,13 @@ class PrimaryCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return Container(
-
-      width: 170.0,
-      padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 15.0),
-
+      padding:
+          EdgeInsets.only(left: 15.0, right: 15.0, top: 30.0, bottom: 20.0),
       decoration: BoxDecoration(
           color: newsBackground,
-
           borderRadius: BorderRadius.circular(35.0),
           border: Border.all(color: blk, width: 1.0)),
-
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -37,44 +32,23 @@ class PrimaryCard extends StatelessWidget {
             maxLines: 5,
             style: headlineSmall,
           ),
-
-          SizedBox(height: 20.0),
+          SizedBox(height: 30.0),
           Row(
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
-
-              Row(
-
-                children: [
-                  Icon(Icons.favorite,
-                    color: Colors.black,
-                    size: 24.0,
-                  ),
-                ],
+              Icon(
+                Icons.favorite,
+                color: Colors.black,
+                size: 24.0,
               ),
 
               SizedBox(width: 15.0),
 
-              Row(
-                children: [
-                  Icon(Icons.send,
-                    color: Colors.black,
-                    size: 24.0),
-                ],
-              ),
+              Icon(Icons.send, color: Colors.black, size: 24.0),
 
               SizedBox(width: 8.0),
 
-              Row(
-                children: [
-                  Icon(Icons.more_vert,
-                    color: Colors.black,
-                    size: 24.0),
-                ],
-              ),
-              SizedBox(width: 10.0),
-
-
+              Icon(Icons.more_vert, color: Colors.black, size: 24.0),
               // Text(
               //   news.time,
               //   style: detailContent,

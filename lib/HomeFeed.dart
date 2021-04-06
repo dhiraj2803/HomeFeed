@@ -11,23 +11,26 @@ class HomeFeed extends StatelessWidget {
         backgroundColor: appBackbround,
         appBar: PreferredSize(
           preferredSize: Size.fromHeight(60.0),
-          child: Column(
-            children: [
-              ListTile(
-                title: Text(
-                  "GOOD MORNING",
-                  textAlign: TextAlign.start,
-                  style: headline1,
+          child: Material(
+            elevation: 5.0,
+            color: appBackbround,
+            child: Column(
+              children: [
+                ListTile(
+                  title: Text(
+                    "GOOD MORNING",
+                    textAlign: TextAlign.start,
+                    style: headline1,
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
-        body:
-        TabBarView(
+        body: TabBarView(
           children: [
             //PopularTabView(),
-            feedsView(),
+            FeedsView(),
             //RecentTabView(),
           ],
         ),
