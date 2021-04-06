@@ -20,6 +20,7 @@ class _BottomNavState extends State<BottomNav> {
   }
 
   static List<Widget> _bottomNavView = [
+    // calling profiles
     NotificationView(),
     HomeFeed(),
     ProfileView(),
@@ -33,54 +34,58 @@ class _BottomNavState extends State<BottomNav> {
         child: _bottomNavView.elementAt(_selectedIndex),
       ),
       bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: bottomBar,
+        backgroundColor: blk,
         currentIndex: _selectedIndex,
         showSelectedLabels: false,
         showUnselectedLabels: false,
         type: BottomNavigationBarType.fixed,
         onTap: _onItemTapped,
-        items: _navBarList
-            .map(
-              (e) => BottomNavigationBarItem(
-            icon: SvgPicture.asset(
-              e.icon,
-              width: 30.0,
-
-            ),
-            activeIcon: SvgPicture.asset(
-              e.activeIcon,
-              width: 30.0,
-            ),
-            title: Text(e.title),
-          ),
-        )
-            .toList(),
+        items: _navBarList,
       ),
     );
   }
 }
 
-class NavBarItem {
-  final String icon;
-  final String activeIcon;
-  final String title;
-  NavBarItem({this.icon, this.activeIcon, this.title});
-}
+List<BottomNavigationBarItem> _navBarList = [
+  BottomNavigationBarItem(
+    icon: SvgPicture.asset(
+      'assets/alert.svg',
+      width: 30,
+      color: bottomNavIcon,
 
-List<NavBarItem> _navBarList = [
-  NavBarItem(
-    icon: "assets/search.svg",
-    activeIcon: "assets/search_2.svg",
-    title: "Search",
+    ),
+
+    activeIcon: SvgPicture.asset(
+      'assets/alert_1.svg',
+      width: 30,
+      color: bottomNavIcon,
+    ),
+    label: "Search",
   ),
-  NavBarItem(
-    icon: "assets/home.svg",
-    activeIcon: "home_2.svg",
-    title: "Home",
+ new BottomNavigationBarItem(
+    icon: new SvgPicture.asset('assets/home.svg',
+      width: 30,
+      color: bottomNavIcon,
+    ),
+    activeIcon: SvgPicture.asset(
+      'assets/home_2.svg',
+      width: 30,
+      color: bottomNavIcon,
+    ),
+    label: "Home",
   ),
-  NavBarItem(
-    icon: "assets/account.svg",
-    activeIcon: "assets/account_2.svg",
-    title: "Account",
+
+  BottomNavigationBarItem(
+    icon: SvgPicture.asset(
+      'assets/account.svg',
+      width: 30,
+      color: bottomNavIcon,
+    ),
+    activeIcon: SvgPicture.asset(
+      'assets/account_2.svg',
+      width: 30,
+      color: bottomNavIcon,
+    ),
+    label: "Account",
   ),
 ];
