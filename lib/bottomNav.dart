@@ -20,6 +20,7 @@ class _BottomNavState extends State<BottomNav> {
   }
 
   static List<Widget> _bottomNavView = [
+    // calling profiles
     NotificationView(),
     HomeFeed(),
     ProfileView(),
@@ -33,7 +34,7 @@ class _BottomNavState extends State<BottomNav> {
         child: _bottomNavView.elementAt(_selectedIndex),
       ),
       bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: bottomBar,
+        backgroundColor: blk,
         currentIndex: _selectedIndex,
         showSelectedLabels: false,
         showUnselectedLabels: false,
@@ -48,40 +49,42 @@ class _BottomNavState extends State<BottomNav> {
 List<BottomNavigationBarItem> _navBarList = [
   BottomNavigationBarItem(
     icon: SvgPicture.asset(
-      'assets/search.svg',
+      'assets/alert.svg',
       width: 30,
-      color: Color(0xFFFFBC53),
+      color: bottomNavIcon,
+
     ),
+
     activeIcon: SvgPicture.asset(
-      'assets/search_2.svg',
+      'assets/alert_1.svg',
       width: 30,
-      color: Color(0xFFFFBC53),
+      color: bottomNavIcon,
     ),
     label: "Search",
   ),
-  BottomNavigationBarItem(
-    icon: SvgPicture.asset(
-      'assets/home.svg',
+ new BottomNavigationBarItem(
+    icon: new SvgPicture.asset('assets/home.svg',
       width: 30,
-      color: Color(0xFFFFBC53),
+      color: bottomNavIcon,
     ),
     activeIcon: SvgPicture.asset(
       'assets/home_2.svg',
       width: 30,
-      color: Color(0xFFFFBC53),
+      color: bottomNavIcon,
     ),
     label: "Home",
   ),
+
   BottomNavigationBarItem(
     icon: SvgPicture.asset(
       'assets/account.svg',
       width: 30,
-      color: Color(0xFFFFBC53),
+      color: bottomNavIcon,
     ),
     activeIcon: SvgPicture.asset(
       'assets/account_2.svg',
       width: 30,
-      color: Color(0xFFFFBC53),
+      color: bottomNavIcon,
     ),
     label: "Account",
   ),
