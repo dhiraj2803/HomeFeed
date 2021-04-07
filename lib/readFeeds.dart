@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:home_feed/constant.dart';
 import 'package:home_feed/news.dart';
-import 'package:home_feed/bottomNav.dart';
+//import 'package:home_feed/bottomNav.dart';
 class ReadFeeds extends StatelessWidget {
   final News news;
   ReadFeeds({this.news});
@@ -16,9 +16,10 @@ class ReadFeeds extends StatelessWidget {
       body: Center(
 
         child: Container(
-          width: 450,
-          height: 600,
-          padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 20.0),
+          margin: EdgeInsets.symmetric(horizontal: 18.0, vertical: 70.0),
+        //  width: 450,
+          //height: 620,
+          padding: EdgeInsets.symmetric(horizontal: 15.0, vertical: 15.0),
 
           decoration: BoxDecoration(
               color: newsBackground,

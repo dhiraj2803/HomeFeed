@@ -22,6 +22,7 @@ class feedsView extends StatelessWidget {
             Navigator.push(
               context,
               MaterialPageRoute(
+
                 builder: (context) => ReadFeeds(news: trending),
               ),
             );
@@ -30,7 +31,7 @@ class feedsView extends StatelessWidget {
             width: double.infinity,
             height: 300.0,
             color: appBackbround,
-            margin: EdgeInsets.symmetric(horizontal: 18.0, vertical: 12.0),
+            margin: EdgeInsets.symmetric(horizontal: 18.0, vertical: 18.0),
             child: PrimaryCard(news: trending),
           ),
         );

@@ -28,15 +28,15 @@ class News {
 
 List<News> trendingList = [
   News(
-    author: "Nick Chong",
+    author: "Dhiraj Gupta",
 
     favorite: "700",
-    seen: "4.51K",
-    time: "4 hours ago",
+    seen: "4.5k",
+    time: "Posted on 11/02/21 at 12:51 PM",
     title:
-        "Beware of an Android Spyware Mandrake that went Undetected for Last 4 Years",
+        "Bad road condition in my locality",
     image:
-        "https://i2.wp.com/1.bp.blogspot.com/-eJLbaED73Q0/XsiYfSJ-paI/AAAAAAAAJA4/lDvgPb3NfX8QhkR4Qp79rfua5LXxW4q9QCLcBGAsYHQ/s1600/mandrake%2Bmalware.png?ssl=1",
+        "https://images.moneycontrol.com/static-mcnews/2017/09/bad-road-666x435.jpg?impolicy=website&width=770&height=431",
     subtitle:
         "Just days ago, Bitcoin was trading at \$9,800, just days away from decisively passing \$10,000. Now, the cryptocurrency is trading at \$9,200, having collapsed on the back of fears of Satoshi Nakamoto dumping his cryptocurrency",
     content:
