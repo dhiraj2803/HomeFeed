@@ -2,19 +2,16 @@ class News {
   final String title;
   final String subtitle;
   final String content;
-  final String category;
   final String time;
   final String author;
   final String seen;
   final String favorite;
   final String image;
-  final String estimate;
+
 
   News({
     this.author,
     this.content,
-    this.category,
-    this.estimate,
     this.favorite,
     this.image,
     this.seen,
@@ -23,8 +20,6 @@ class News {
     this.title,
   });
 }
-
-
 
 List<News> trendingList = [
   News(
@@ -36,68 +31,69 @@ List<News> trendingList = [
     title:
         "Bad road condition in my locality",
     image:
-        "https://images.moneycontrol.com/static-mcnews/2017/09/bad-road-666x435.jpg?impolicy=website&width=770&height=431",
+        "https://media.istockphoto.com/photos/broken-road-in-the-woods-picture-id531854696?s=612x612",
     subtitle:
-        "Just days ago, Bitcoin was trading at \$9,800, just days away from decisively passing \$10,000. Now, the cryptocurrency is trading at \$9,200, having collapsed on the back of fears of Satoshi Nakamoto dumping his cryptocurrency",
+        "Pavement with inadequate skid resistance. Hazards obstructing visibility at intersections and crosswalks. Absent, defective or improper warning signs.",
     content:
-        "Just days ago, Bitcoin was trading at \$9,800, just days away from decisively passing \$10,000. Now, the cryptocurrency is trading at \$9,200, having collapsed on the back of fears of Satoshi Nakamoto dumping his cryptocurrency.\n\nIt’s a drop that has had some investors fearing the worst.\n\nYesterday, for instance, Bitcoin closed below a key technical support level: the middle Bollinger Band, which is the 20-day moving average. AI and Cloud specialist at Microsoft Joe McCann, who moonlights as a popular crypto trader, wrote on the matter:“A close below \$9287 for BTC would be bad for bulls, that’s the 20 day.\n\nYet a number of on-chain and fundamental trends have indicated that the cryptocurrency’s outlook remains strong.” ",
+        "Auto accidents often occur in construction zones. Even after road construction has been completed, the actions of construction workers could increase the risk of a crash. Failure to properly follow approved plans, the uses sub-par materials or poor workmanship can all decrease the quality of road conditions and increase the likelihood of a collision. The government may try to argue that these types of wrecks are a direct result of driver error; however, bad road conditions are often a major contributing factor in these accidents. ",
   ),
   News(
-    author: "BBC News",
+    author: "Chaitanya Kumar",
 
     favorite: "502",
     seen: "1.21K",
-    time: "10 hours ago",
+    time: "Posted on 31/11/20 at 12:51 PM",
     title:
-        "Hertz: Car rental firm files for US bankruptcy protection - BBC News",
+        "Big Hole in the road",
     image:
-        "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/y3wlnheedaagzagh7ysg.jpg",
+        "https://media.istockphoto.com/photos/of-holes-road-for-cars-picture-id490064147?s=612x612",
     subtitle:
-        "The company said the coronavirus pandemic had led to an \"abrupt\" decline in bookings.",
+        "Ignoring evidence that accidents keep occurring on a certain road due to bad conditions , Changing patterns by pedestrians and vehicles ",
     content:
-        "Car rental company Hertz has filed for bankruptcy protection in the US after the pandemic saw its business plummet.\n\nThe firm, which earns much of its income from car rentals at airports, said it had been affected by the sharp downturn in global travel.\n\nIt will continue to operate while restructuring its debts.\n\nHertz's international operations in Europe, Australia and New Zealand as well as its franchised locations in the US are not affected.\n\nThe company - which began operating a century ago in Chicago with a dozen Model T Ford cars - had already furloughed or laid off 20,000 employees, or around half of its global workforce, in response to the pandemic.\n\nIts chief executive resigned last week.\n\nBefore the pandemic the company had amassed billions of dollars in debt, with the rise of ride-hailing apps leading to a drop in demand for car rentals.\n\n.The impact of Covid-19 on travel demand was sudden and dramatic, causing an abrupt decline in the company's revenue and future bookings,Hertz said on Friday.\n\n.While it had taken immediate actions to prioritize the health and safety of employees and customers, eliminate all non-essential spending and preserve liquidity, the uncertainty over if and when the market would recover led to its decision, it said.",
+        "Even the best designed and constructed roads require routine maintenance in order to keep them safe. When road surfaces become damaged with potholes, for example, a car may hit the hole at an odd angle, causing the vehicle to spin and collide with other vehicles and obstacles in the road. Old guardrails are also often overlooked; they can become hazardous when they lose the strength necessary to keep vehicles on the road.",
   ),
   News(
-    author: "Jon Fingas",
+    author: "Pratik Tiwari",
 
     favorite: "23K",
     seen: "40.51K",
-    time: "12 Hours ago",
+    time: "Posted on 18/03/21 at 16:51 PM",
     title:
-        "Apple's AirPods with wireless charging case drop to \$150 on Amazon",
+        "Dangerous street drop-offs, like ravines or cliffs",
     image:
-        "https://cdn.arstechnica.net/wp-content/uploads/2020/05/hearing-ios-1-760x380.jpg",
+        "https://assets.change.org/photos/2/ma/ye/cqmaYEcvkOVzQbb-800x450-noPad.jpg?1509361645",
     subtitle:
-        "Now’s a prime opportunity to get some AirPods if you’d like them for your walks or just to improve your video calls",
+        "Even the best designed and constructed roads require routine maintenance in order to keep them safe. When road surfaces become damaged with potholes, for example, a car may hit the hole at an odd angle, causing the vehicle to spin and collide with other vehicles and obstacles in the road.",
     content:
-        "Now’s a prime opportunity to get some AirPods if you’d like them for your walks or just to improve your video calls. Amazon is selling AirPods with a wireless charging case for \$150. That’s \$50 off the official price, and \$20 lower than the usual discounts. You can also score the standard AirPods for \$130 if you’re content to charge with a cable.As has been true ever since launch, the AirPods’ chief allure is convenience. They’re easy to set up on an iOS device, switch seamlessly between multiple Apple devices and have conveniences like always-available “Hey Siri” and automatic pausing when you remove a bud. The wireless case makes it that much easier to top up at the end of a long day.\n\nThe same caveats still apply. While you technically can use AirPods with Android and Windows devices, they clearly work best within Apple’s ecosystem. The buds’ five-hour claimed battery life is strictly acceptable (you’ll be thankful for that battery case). And if the EarPods that came with your iPhone don’t fit you well, the AirPods won’t either. You’ll want to look at alternatives like the AirPods Pro if you want something better-suited to workouts. Still, there are some reasons why AirPods are popular — they take many of the hassles out of Bluetooth earbuds.",
+        "Even the best designed and constructed roads require routine maintenance in order to keep them safe. When road surfaces become damaged with potholes, for example, a car may hit the hole at an odd angle, causing the vehicle to spin and collide with other vehicles and obstacles in the road. Old guardrails are also often overlooked; they can become hazardous when they lose the strength necessary to keep vehicles on the road.",
   ),
   News(
-    author: "Kirsten Korosec",
+    author: "Shubham J",
 
     favorite: "12K",
     seen: "30.1K",
-    time: "22 Hours ago",
-    title: "'Fallout Shelter' joins Tesla arcade in latest software update",
+    time: "Posted on 15/01/21 at 14:15 PM",
+    title: " Hazards obstructing visibility at intersections and crosswalks",
     image:
-        "https://images.ctfassets.net/rporu91m20dc/38bqPjnuMlAhndHF0jQ9gS/d4fdb3638b8b5f9aee5af2d06d2564ab/Fallout1st_HomepageCarouselMobile_750x846-01.png",
+        "https://media.istockphoto.com/photos/broken-road-in-the-woods-picture-id531854696?s=612x612",
     subtitle:
-        "J.K. Rowling has been drinking a lot and you'd better believe she has some thoughts on Bitcoin.\nNoted TERF and author of The Cuckoo’s Calling, Rowling decided Friday was the perfect time to learn about the cryptocurrency Bitcoin",
+        "Poorly-maintained roads cause half of the fatal auto accidents that happen each year in the United States",
     content:
-        'J.K. Rowling has been drinking a lot and you`d better believe she has some thoughts on Bitcoin.\nNoted TERF and author of The Cuckoo’s Calling, Rowling decided Friday was the perfect time to learn about the cryptocurrency Bitcoin.\n\nNoted TERF and author of The Cuckoo’s Calling, Rowling decided Friday was the perfect time to learn about the cryptocurrency Bitcoin. And so, like any celebrity who wants to start her day off with a ray of positivity, she hopped on Twitter to engage.\n\nOver the course of the next several hours, as legions of crypto try-hards leapt at the opportunity to explain consensus algorithms, Rowling`s nascent views on Bitcoin turned from mildly inquisitive to a friendly mocking.\n\nPerhaps it was the fourth Old Fashioned speaking?\n\n"People are now explaining Bitcoin to me, and honestly, it`s blah blah blah collectibles (My Little Pony?) blah blah blah computers (got one of those) blah blah blah crypto (sounds creepy) blah blah blah understand the risk (I don`t, though.)," she tweeted. "I know you mean to help, but full disclosure: I’m only allowing myself alcohol at weekends during this lockdown and I`m on my fourth very strong Old Fashioned and honestly, you might as well send me a scroll written in Sanskrit."',
+        "An 18-month study conducted by The Pacific Institute for Research and Evaluation examined information from the National Highway Traffic Safety Administration, Federal Motor Carrier Safety Administration and other government agencies and concluded that road problems like potholes and iced-over stretches of highway cause more than 42,000 deaths a year. \n\n Have you been involved in an accident due to bad roads? \n\nIf so, the auto accident lawyers at Greg Coleman Law want to speak with you. Our firm is prepared to fight for the maximum amount of compensation available to the victims of poor road conditions and can help to explain your legal option.",
   ),
   News(
-    author: "Darrell Etherington",
+    author: "Anonymous",
 
     favorite: "21K",
     seen: "41.5K",
-    time: "8 Hours ago",
+    time: "Posted on 15/01/21 at 14:15 PM",
     title:
-        "New non-profit from Google Maps co-creator offers temporary ‘safe’ passes to aid COVID-19 reopening effort",
-    image: "https://images.wsj.net/im-190173",
+        "Hyderabad among nine Indian cities with poor road connectivity",
+
+    image: "https://assets.change.org/photos/2/ma/ye/cqmaYEcvkOVzQbb-800x450-noPad.jpg?1509361645",
     subtitle:
-        "There are a number of different technologies both proposed and in development to help smooth the reopening of parts of the economy even as the threat of the COVID-19 pandemic continues.",
-    content:
-        "There are a number of different technologies both proposed and in development to help smooth the reopening of parts of the economy even as the threat of the COVID-19 pandemic continues. One such tech solution launching today comes from Brian McClendon,  co-founder of Keyhole,  the company that Google  purchased in 2004 that would form the basis of Google Earth and Google Maps. McClendon’s new CVKey Project is a registered nonprofit that is launching with an app for symptom self-assessment that generates a temporary QR code, which will work with participating community facilities as a kind of health “pass” on an opt-in basis.\n\nUltimately, CVKey Project hopes to launch an entire suite of apps dedicated to making it easier to reopen public spaces safely.  Apple and Google recently launched an exposure notification API that would allow CVKey to include those notifications in its apps. CVKey also plans to provide information about facilities open under current government guidelines and their policies to prevent the spread of COVID-19 as much as possible.\n\nThe core element of CVKey Project’s approach, however, is the use of a QR code generated by its app that essentially acts as a verification that you’re “safe” to enter one of these shared spaces. The system is designed with user privacy in mind, according to McClendon. Any identity or health data exists only on a user’s individual device — no date is ever uploaded to a cloud server or shared without a user’s consent. Information is also provided about what that sharing entails. Users voluntarily offer their health info, and the app never asks for location information. Most of what it does can be done without an internet connection at all, McClendon explains.\n\nWhen you generate and scan a QR code at a participating location, a simple binary display (based on the location’s policies) indicates whether you’re cleared to pass. The location won’t see any specifics about your health information. The code simply transmits the particulars of shown symptoms (which ones and how recently, for instance), and then that is matched against the  public space’s policy. The app then provides a “go”/”no-go” response.\n\nMcClendon created CVKey Project with former Google Earth, Google Maps and Uber  co-workers Manik Gupt and Waleed Kadous, as well as Dr. Marci Nielsen, a public health specialist with a long history of public and private institution leadership.\n\nThe apps created by CVKey Project will be available soon, and the nonprofit is looking for potential partners to participate in its program. Like just about everything else designed to address the COVID-19 crisis, it’s not a simple fix, but it could form part of a larger strategy that provides a path forward for dealing with the pandemic.",
+        "Nine out of 100 cities with the worst street-network connectivity are from India, according to a new report. Vijayawada ranks 35th in the list with an SNDi (street-network disconnectedness index) score of 4.9, while Hyderabad ranks 80th with an SNDi score of 3.8. Notably, Vijayawada is the third-worst among the nine Indian cities.",
+
+      content: "Nine out of 100 cities with the worst street-network connectivity are from India, according to a new report. Vijayawada ranks 35th in the list with an SNDi (street-network disconnectedness index) score of 4.9, while Hyderabad ranks 80th with an SNDi score of 3.8. Notably, Vijayawada is the third-worst among the nine Indian cities.\n\nIndian cities are planning their road networks poorly, creating longer commutes. Among the nine Indian cities, Pune ranked 15th, Kolkata was at 21, Vijayawada 35, Coimbatore 46, Mumbai 50, Kozhikode 53, Singrauli 65, and Jaipur ranked 93rd on the list. Hyderabad ranks 8th among the nine Indian cities and 80th overall. \n The street networks were divided into nodes (specific points) and edges (paths connecting the nodes) to measure the disconnectedness. Taking an example of two cars, the methodology determines which car will have to take the longer route, the index. The first step involves counting the number of connections for each node, the second step compares the route length with the shortest distance between neighbouring nodes, and the third step compares the road length with the shortest distance between connected nodes. The result shows the car's street network. Fewer connections, more dead-ends, and meandering routes and roads would represent a higher disconnectedness score. \n According to the report, India must pay attention to this problem as the number of people using it's urban street networks is set to balloon in the coming years. India is projected to have the fastest urbanisation between 2018 and 2050 by adding 416 million more urban dwellers, nearly doubling it's urban population, according to the world urbanisation prospects 2018. India already had the second-largest urban population in the world in 2018 after China, at 461 million urban dwellers. \n Talking about Hyderbad's roads, Anoop Kumar of Oscar Roads, said,  Honestly, the roads are in bad shape. There are no funds for road development, neither is there any plan to widen the roads. New roads are not being laid. The roads that we already have not been maintained for a very long time. All we see are potholes. Due to this, more time is wasted on roads and accidents occurs more frequently.",
   ),
 ];

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:home_feed/constant.dart';
 import 'package:home_feed/news.dart';
-//import 'package:home_feed/bottomNav.dart';
+
 class ReadFeeds extends StatelessWidget {
   final News news;
   ReadFeeds({this.news});
@@ -10,36 +10,18 @@ class ReadFeeds extends StatelessWidget {
     return Scaffold(
       backgroundColor: appBackbround,
 
-      // appBar: AppBar(
-      //   backgroundColor: appBackbround,
-      // ),
       body: Center(
-
         child: Container(
-          margin: EdgeInsets.symmetric(horizontal: 18.0, vertical: 70.0),
-        //  width: 450,
-          //height: 620,
           padding: EdgeInsets.symmetric(horizontal: 15.0, vertical: 15.0),
-
           decoration: BoxDecoration(
-              color: newsBackground,
-
-              borderRadius: BorderRadius.circular(35.0),
+              color: appBackbround,
               border: Border.all(color: blk, width: 1.0)),
-          //padding: EdgeInsets.symmetric(horizontal: 18.0),
           child: ListView(
 
             children: [
               SizedBox(height: 12.0),
               Text(news.title, style: titleCard.copyWith(fontSize: 28.0)),
-
-              SizedBox(height: 15.0),
-              Text(
-                news.content,
-                style: descriptionStyle,
-              ),
               SizedBox(height: 25.0),
-
               Hero(
                 tag: news.seen,
                 child: Container(
@@ -53,6 +35,13 @@ class ReadFeeds extends StatelessWidget {
                   ),
                 ),
               ),
+
+              SizedBox(height: 15.0),
+              Text(
+                news.content,
+                style: descriptionStyle,
+              ),
+
               SizedBox(height: 15.0),
               Row(
                 children: [
@@ -95,14 +84,10 @@ class ReadFeeds extends StatelessWidget {
                 ],
               ),
               SizedBox(height: 12.0),
-              //BottomNav(),
-
-
             ],
           ),
         ),
       ),
-      //bottomSheet: BottomNav(),
     );
   }
 }
@@ -115,10 +100,13 @@ class Status extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Icon(icon, color: blk),
+        Icon(icon, color: blk,
+
+        ),
         SizedBox(width: 4.0),
         Text(total, style: detailContent),
       ],
     );
   }
 }
+
